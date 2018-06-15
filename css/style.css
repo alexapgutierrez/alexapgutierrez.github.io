@@ -1,0 +1,57 @@
+/*-------------------------------------------------
+>> Fonts
+-------------------------------------------------*/
+/*-------------------------------------------------
+>> Colors
+-------------------------------------------------*/
+a {
+  color: #99dd79; }
+  a:hover {
+    text-decoration: none; }
+
+body {
+  background-color: white;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  color: #282828; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+.Header {
+  background-color: #343933;
+  color: white;
+  text-align: center;
+  padding: 20px; }
+  .Header-menu .sidebar-nav ul {
+    margin: 20px 0 0;
+    padding: 0; }
+
+/*-------------------------------------------------
+>> Primary menu
+-------------------------------------------------*/
+.menu .menu-item {
+  display: block; }
+  .menu .menu-item a {
+    display: block;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.5px; }
+
+/*-------------------------------------------------
+>> Media Queries
+-------------------------------------------------*/
+@media screen and (min-width: 768px) {
+  .Header {
+    padding: 15px; }
+    .Header-logo {
+      text-align: left; }
+
+  .menu {
+    text-align: right; }
+    .menu .menu-item {
+      display: inline-block; }
+      .menu .menu-item a {
+        padding: 0 15px 0 0; } }
+
+/*# sourceMappingURL=style.css.map */
