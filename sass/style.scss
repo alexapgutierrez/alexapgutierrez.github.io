@@ -1,5 +1,12 @@
 @import "_variables";
 
+@import "mixins/_transition";
+@import "mixins/_size";
+@import "mixins/_buttons";
+@import "mixins/_border-radius";
+
 @import "_elements";
 
-@import "_components"
+@import "_components";
+
+@import "_classes";

@@ -1,8 +1,8 @@
 .Header{
-  background-color: $secondGreen;
+  background-color: $secondary;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
 
   &-menu{
     .sidebar-nav ul{
@@ -23,9 +23,17 @@
 
     a{
       display: block;
-      color: white;
+      color: rgba(255, 255, 255, 0.44);
       font-weight: $fontExtraLight;
-      letter-spacing: .5px
+      letter-spacing: .5px;
+      @include transition(all,.3s,ease);
+
+      &:hover{
+        color: white;
+      }
+      &.active{
+        color: white;
+      }
     }
 
   }
@@ -37,7 +45,7 @@
 
 @media screen and (min-width: 768px){
   .Header{
-    padding: 15px;
+    padding: 10px 0;
     &-logo{
       text-align: left;
     }
@@ -47,7 +55,8 @@
     .menu-item{
       display: inline-block;
       a{
-        padding: 0 15px 0 0;
+        padding: 0 10px 15px;
+        margin: 0 12px;
       }
     }
   }

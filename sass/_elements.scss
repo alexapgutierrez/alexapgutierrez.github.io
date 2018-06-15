@@ -1,12 +1,14 @@
 a{
   color: $green;
+  @include transition(all,.3s,ease);
   &:hover{
     text-decoration: none;
+    color: $opacityGreen;
   }
 }
 
 body{
-  background-color: white;
+  background-color: $bg;
   font-size: 16px;
   font-family: $font;
   color: $grey;

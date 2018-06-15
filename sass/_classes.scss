@@ -1,0 +1,13 @@
+.btn{
+  @include border-radius(0);
+  border: none;
+  @include transition(all,.2s,ease);
+  &.btn-primary{
+    background-color: $grey;
+    color: white;
+    padding: 10px 15px;
+    &:hover{
+      background-color: #424242;
+    }
+  }
+}

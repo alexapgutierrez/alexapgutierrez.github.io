@@ -5,12 +5,17 @@
 >> Colors
 -------------------------------------------------*/
 a {
-  color: #99dd79; }
+  color: #99dd79;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #cdedbd; }
 
 body {
-  background-color: white;
+  background-color: #fff;
   font-size: 16px;
   font-family: "Muli", sans-serif;
   color: #282828; }
@@ -19,10 +24,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
 .Header {
-  background-color: #343933;
+  background-color: #212121;
   color: white;
   text-align: center;
-  padding: 20px; }
+  padding: 20px 0; }
   .Header-menu .sidebar-nav ul {
     margin: 20px 0 0;
     padding: 0; }
@@ -34,16 +39,24 @@ h1, h2, h3, h4, h5, h6 {
   display: block; }
   .menu .menu-item a {
     display: block;
-    color: white;
+    color: rgba(255, 255, 255, 0.44);
     font-weight: 200;
-    letter-spacing: 0.5px; }
+    letter-spacing: .5px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .menu .menu-item a:hover {
+      color: white; }
+    .menu .menu-item a.active {
+      color: white; }
 
 /*-------------------------------------------------
 >> Media Queries
 -------------------------------------------------*/
 @media screen and (min-width: 768px) {
   .Header {
-    padding: 15px; }
+    padding: 10px 0; }
     .Header-logo {
       text-align: left; }
 
@@ -52,6 +65,34 @@ h1, h2, h3, h4, h5, h6 {
     .menu .menu-item {
       display: inline-block; }
       .menu .menu-item a {
-        padding: 0 15px 0 0; } }
+        padding: 0 10px 15px;
+        margin: 0 12px; } }
+.Welcome-body {
+  padding: 20vh;
+  text-align: center;
+  background-image: url("../img/welcome-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .Welcome-body .title {
+    font-size: 40px; }
+  .Welcome-body .subtitle {
+    font-size: 55px; }
+
+.btn {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+  .btn.btn-primary {
+    background-color: #282828;
+    color: white;
+    padding: 10px 15px; }
+    .btn.btn-primary:hover {
+      background-color: #424242; }
 
 /*# sourceMappingURL=style.css.map */
