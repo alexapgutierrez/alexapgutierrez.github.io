@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portafolios on Alexandra Patiño Gutierrez</title>
+    <link>https://alexapgutierrez.github.io/portafolio/</link>
+    <description>Recent content in Portafolios on Alexandra Patiño Gutierrez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-CO</language>
+    <lastBuildDate>Sun, 17 Jun 2018 01:27:57 -0500</lastBuildDate>
+    
+	<atom:link href="https://alexapgutierrez.github.io/portafolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Guia E</title>
+      <link>https://alexapgutierrez.github.io/portafolio/guia-e/</link>
+      <pubDate>Sun, 17 Jun 2018 01:27:57 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/portafolio/guia-e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Men Magazine Gay</title>
+      <link>https://alexapgutierrez.github.io/portafolio/men-magazine-gay/</link>
+      <pubDate>Sat, 05 May 2018 01:01:37 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/portafolio/men-magazine-gay/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora aut quod tempore velit laboriosam, hic cum illo, provident quia ducimus minima et aperiam voluptatem, quisquam reiciendis qui aspernatur a, fugit!</description>
+    </item>
+    
+    <item>
+      <title>Athousand Tips</title>
+      <link>https://alexapgutierrez.github.io/portafolio/athousandtips/</link>
+      <pubDate>Tue, 11 Jul 2017 01:24:23 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/portafolio/athousandtips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>egoCity Lgbt Community Network</title>
+      <link>https://alexapgutierrez.github.io/portafolio/egocity-lgbt-community-network/</link>
+      <pubDate>Mon, 20 Feb 2017 22:07:56 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/portafolio/egocity-lgbt-community-network/</guid>
+      <description>egoCity Community Network es una completa plataforma de medios digitales e impresos que le brinda la posibilidad de llegar efectivamente a la comunidad LGBT, haciendo que sus contenidos editoriales y comerciales tengan un mayor impacto.</description>
+    </item>
+    
+  </channel>
+</rss>
