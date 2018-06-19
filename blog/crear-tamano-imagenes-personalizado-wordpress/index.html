@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Crear tamaño de imágenes personalizado en WordPress - Desarrolladora WordPress</title>
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://alexapgutierrez.github.io/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://alexapgutierrez.github.io/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="https://alexapgutierrez.github.io/icomoon/style.css">
+  <link rel="stylesheet" href="/css/style-a0dfed1a.css" />
+
+</head>
+<body>
+
+
+  <header class="Header sticky-top navbar-light bg-dark">
+    <div class="container">
+      <div class="row">
+
+        <div class="Header-logo col-4 col-sm-3 col-md-2">
+          <a href="https://alexapgutierrez.github.io/"><img src="https://alexapgutierrez.github.io/img/alexapgutierrez-frontend-medellin.png" alt="Alexandra Patiño Gutierrez" /></a>
+        </div>
+
+        <div class="Header-menu col-8 col-sm-9 col-md-10">
+          <nav class="sidebar-nav">
+  <ul class="menu">
+    
+    
+    <li class="menu-item">
+      <a class="sidebar-nav-item" href="/" title="">Inicio</a>
+    </li>
+    
+    <li class="menu-item">
+      <a class="sidebar-nav-item" href="/portafolio/" title="">Portafolio</a>
+    </li>
+    
+    <li class="menu-item">
+      <a class="sidebar-nav-item" href="/blog/" title="">Blog</a>
+    </li>
+    
+  </ul>
+</nav>
+
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+<div class="container">
+  <section class="Page baseof row justify-content-center align-items-end">
+      
+      
+
+
+  <section class="Entry col-12 col-md-7 section">
+
+    <article class="Entry-title text-center">
+      <h1 class="single-title">Crear tamaño de imágenes personalizado en WordPress</h1>
+      <i class="icomoon icon-genius icon"></i>
+    </article>
+
+    <article class="Entry-extra">
+      <p>Publicado el: 4 junio de 2018</p>
+      <div class="meta-tags">
+  
+  
+    
+    
+        
+        
+            <p>Categoría: <a class="meta" href="/categories/wordpress">WordPress</a></p>
+            
+        
+    
+  
+</div>
+
+    </article>
+
+  </section>
+
+  <section class="Entry-body col-12 col-md-11 section">
+
+    <article class="Entry-body-content">
+      <div class="content">
+
+<p>Por defecto <strong>WordPress genera tres tamaños de imágenes</strong> por cada una de las que subimos:</p>
+
+<ul>
+<li><strong>Thumbnail</strong>: 150 × 150px.</li>
+<li><strong>Medium</strong>: 300 × 300px.</li>
+<li><strong>Large</strong>: 1024 × 1024px.</li>
+</ul>
+
+<p>Y aunque estos tres tamaños pueden ser cambiados en     <em>Ajustes / Medios</em> no es siempre útil ya que según el diseño del sitio necesitaremos imágenes en diferentes tamaños.</p>
+
+
+<figure>
+    
+        <img src="/images/2018/junio/ajustes-medios-wordpress.png" />
+    
+    
+    <figcaption>
+        <h4>Ajustes/Medios WordPress</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<p>Aquí te muestro un código bastante simple para crearlos que pondremos dentro del <code>functions.php</code>.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span>
+  <span style="color:#75715e">/* Nuevo tamaño de imagen */</span>  
+    <span style="color:#66d9ef">if</span> ( <span style="color:#a6e22e">function_exists</span>( <span style="color:#e6db74">&#39;add_image_size&#39;</span> ) ) {  
+      <span style="color:#a6e22e">add_image_size</span>(<span style="color:#e6db74">&#39;primer_tamanio&#39;</span>, <span style="color:#ae81ff">450</span>, <span style="color:#ae81ff">800</span>, <span style="color:#66d9ef">true</span>);  
+      <span style="color:#a6e22e">add_image_size</span>(<span style="color:#e6db74">&#39;segundo_tamanio&#39;</span>, <span style="color:#ae81ff">1100</span>, <span style="color:#ae81ff">1400</span>, <span style="color:#66d9ef">true</span>);
+    }
+<span style="color:#75715e">?&gt;</span>
+</code></pre></div>
+
+<p>En el caso de este código he creado dos tamaños de imágenes: <strong>primer_tamanio</strong> y <strong>segundo_tamanio</strong>.</p>
+
+<p>Así al subir una imagen no solo se generaran los tres tamaños por defecto sino cada uno de los que generemos con el código anterior.</p>
+
+<h2 id="no-crear-demasiados-tamaños">No crear demasiados tamaños</h2>
+
+<p>Si bien aclaramos el hecho de que generar nuevos tamaños de imágenes es beneficioso para ciertos diseños web, hay que tener cuidado con la cantidad, ya que por cada imagen subida se duplican en los tamaños declarados.</p>
+
+<h2 id="usar-los-tamaños-creados-dentro-del-theme">Usar los tamaños creados dentro del theme</h2>
+
+<p>Para llamar el tamaño de imagen deseado dentro del theme solo debemos añadir en el archivo:</p>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#75715e">&lt;?php</span> <span style="color:#a6e22e">the_post_thumbnail</span>(<span style="color:#e6db74">&#39;primer_tamanio&#39;</span>); <span style="color:#75715e">?&gt;</span>
+</code></pre></div></p>
+
+<p>Así, tenemos más el control sobre lo que mostramos en nuestro sitio.</p>
+</div>
+    </article>
+
+    </article>
+
+  </section>
+
+
+
+      
+      
+      
+  </section>
+</div>
+<footer class="Footer">
+  <p>Alexandra Patiño Gutierrez | Desarrolladora WordPress</p>
+  <p>2018</p>
+
+  <div class="Footer-social">
+    <a href="https://twitter.com/alexapgutierrez" target="_blank" class="icon fab fa-twitter"></a>
+    <a href="https://www.facebook.com/AlexandraPatinoGutierrez" target="_blank" class="icon fab fa-facebook-f"></a>
+    <a href="https://github.com/alexapgutierrez" target="_blank" class="icon fab fa-github"></a>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+

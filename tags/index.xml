@@ -6,9 +6,19 @@
     <description>Recent content in Tags on Alexandra Patiño Gutierrez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CO</language>
+    <lastBuildDate>Mon, 04 Jun 2018 16:40:48 -0500</lastBuildDate>
     
 	<atom:link href="https://alexapgutierrez.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Plugins</title>
+      <link>https://alexapgutierrez.github.io/tags/plugins/</link>
+      <pubDate>Mon, 04 Jun 2018 16:40:48 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/tags/plugins/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

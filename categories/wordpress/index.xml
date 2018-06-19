@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wordpress on Alexandra Patiño Gutierrez</title>
+    <link>https://alexapgutierrez.github.io/categories/wordpress/</link>
+    <description>Recent content in Wordpress on Alexandra Patiño Gutierrez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-CO</language>
+    <lastBuildDate>Mon, 04 Jun 2018 17:31:31 -0500</lastBuildDate>
+    
+	<atom:link href="https://alexapgutierrez.github.io/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Crear tamaño de imágenes personalizado en WordPress</title>
+      <link>https://alexapgutierrez.github.io/blog/crear-tamano-imagenes-personalizado-wordpress/</link>
+      <pubDate>Mon, 04 Jun 2018 17:31:31 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/blog/crear-tamano-imagenes-personalizado-wordpress/</guid>
+      <description>Por defecto WordPress genera tres tamaños de imágenes por cada una de las que subimos:
+ Thumbnail: 150 × 150px. Medium: 300 × 300px. Large: 1024 × 1024px.  Y aunque estos tres tamaños pueden ser cambiados en Ajustes / Medios no es siempre útil ya que según el diseño del sitio necesitaremos imágenes en diferentes tamaños.
+  Ajustes/Medios WordPress   Aquí te muestro un código bastante simple para crearlos que pondremos dentro del functions.</description>
+    </item>
+    
+    <item>
+      <title>Cupones de WooCommerce por cantidad de compra</title>
+      <link>https://alexapgutierrez.github.io/blog/cupones-woocommerce-por-cantidad-de-compra/</link>
+      <pubDate>Mon, 04 Jun 2018 16:40:48 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/blog/cupones-woocommerce-por-cantidad-de-compra/</guid>
+      <description>El uso de cupones es quizá el método más atractivo que tenemos a la mano en WooCommerce para captar clientes e invitar a la compra final.
+Si logramos que el cliente consiga su ansiado cupón gracias al aumento de productos o de valor en su compra logramos obtener mejores ganancias y un cliente feliz.
+Para esto existe un plugin increíble llamado WooCommerce Bulk Discount que nos ayuda a aplicar descuentos de diferentes tipos.</description>
+    </item>
+    
+  </channel>
+</rss>

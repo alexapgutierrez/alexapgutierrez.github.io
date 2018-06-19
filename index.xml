@@ -6,10 +6,43 @@
     <description>Recent content on Alexandra Patiño Gutierrez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CO</language>
-    <lastBuildDate>Sat, 05 May 2018 01:01:37 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jun 2018 23:13:18 -0500</lastBuildDate>
     
 	<atom:link href="https://alexapgutierrez.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Infografía: UX no es lo mismo que UI</title>
+      <link>https://alexapgutierrez.github.io/blog/infografia-ux-no-es-lo-mismo-que-ui/</link>
+      <pubDate>Mon, 04 Jun 2018 23:13:18 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/blog/infografia-ux-no-es-lo-mismo-que-ui/</guid>
+      <description>Hoy en día las terminologías UX y UI son usadas con frecuencia en el diseño web. ¿Pero son lo mismo? ¿Qué diferencia hay entre una y la otra?
+Hoy leí un artículo muy interesante en arayoweb.com donde, con ayuda de una infografía nos cuentan las diferencias entre ambas que al final se reduce en UI es una parte de UX.
+Básicamente UX que es usado para describir la experiencia de usuario es la sensación que una marca causa en el usuario aunque va más allá.</description>
+    </item>
+    
+    <item>
+      <title>Crear tamaño de imágenes personalizado en WordPress</title>
+      <link>https://alexapgutierrez.github.io/blog/crear-tamano-imagenes-personalizado-wordpress/</link>
+      <pubDate>Mon, 04 Jun 2018 17:31:31 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/blog/crear-tamano-imagenes-personalizado-wordpress/</guid>
+      <description>Por defecto WordPress genera tres tamaños de imágenes por cada una de las que subimos:
+ Thumbnail: 150 × 150px. Medium: 300 × 300px. Large: 1024 × 1024px.  Y aunque estos tres tamaños pueden ser cambiados en Ajustes / Medios no es siempre útil ya que según el diseño del sitio necesitaremos imágenes en diferentes tamaños.
+  Ajustes/Medios WordPress   Aquí te muestro un código bastante simple para crearlos que pondremos dentro del functions.</description>
+    </item>
+    
+    <item>
+      <title>Cupones de WooCommerce por cantidad de compra</title>
+      <link>https://alexapgutierrez.github.io/blog/cupones-woocommerce-por-cantidad-de-compra/</link>
+      <pubDate>Mon, 04 Jun 2018 16:40:48 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/blog/cupones-woocommerce-por-cantidad-de-compra/</guid>
+      <description>El uso de cupones es quizá el método más atractivo que tenemos a la mano en WooCommerce para captar clientes e invitar a la compra final.
+Si logramos que el cliente consiga su ansiado cupón gracias al aumento de productos o de valor en su compra logramos obtener mejores ganancias y un cliente feliz.
+Para esto existe un plugin increíble llamado WooCommerce Bulk Discount que nos ayuda a aplicar descuentos de diferentes tipos.</description>
+    </item>
     
     <item>
       <title>Men Magazine Gay</title>

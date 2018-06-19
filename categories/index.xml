@@ -10,5 +10,23 @@
 	<atom:link href="https://alexapgutierrez.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Diseño</title>
+      <link>https://alexapgutierrez.github.io/categories/dise%C3%B1o/</link>
+      <pubDate>Mon, 04 Jun 2018 23:13:18 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/categories/dise%C3%B1o/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://alexapgutierrez.github.io/categories/wordpress/</link>
+      <pubDate>Mon, 04 Jun 2018 17:31:31 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
