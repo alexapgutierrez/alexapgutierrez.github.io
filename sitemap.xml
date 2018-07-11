@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alexapgutierrez.github.io/portafolio/siflor/</loc>
+    <lastmod>2018-07-03T22:07:35-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexapgutierrez.github.io/blog/infografia-ux-no-es-lo-mismo-que-ui/</loc>
     <lastmod>2018-06-04T23:13:18-05:00</lastmod>
   </url>
@@ -94,7 +99,7 @@
   
   <url>
     <loc>https://alexapgutierrez.github.io/</loc>
-    <lastmod>2018-06-04T23:13:18-05:00</lastmod>
+    <lastmod>2018-07-03T22:07:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -123,7 +128,7 @@
   
   <url>
     <loc>https://alexapgutierrez.github.io/portafolio/</loc>
-    <lastmod>2018-05-05T01:01:37-05:00</lastmod>
+    <lastmod>2018-07-03T22:07:35-05:00</lastmod>
     <priority>0</priority>
   </url>
   
