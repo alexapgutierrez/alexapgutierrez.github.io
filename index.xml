@@ -188,5 +188,14 @@ Para esto existe un plugin increíble llamado WooCommerce Bulk Discount que nos 
       <description></description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://alexapgutierrez.github.io/contacto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/contacto/</guid>
+      <description> Contacto - Alexandra Patiño Gutierrez, desarrolladora WordPress {{ if .RSSLink -}}{{- end }}    {{ partial &#34;menu.html&#34; . }}  Contacto         var contactform = document.getElementById(&#39;contactform&#39;); contactform.setAttribute(&#39;action&#39;, &#39;//formspree.io/&#39; + &#39;your&#39; + &#39;@&#39; + &#39;email&#39; + &#39;.&#39; + &#39;com&#39;);     </description>
+    </item>
+    
   </channel>
 </rss>
