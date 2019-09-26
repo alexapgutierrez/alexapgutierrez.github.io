@@ -6,10 +6,19 @@
     <description>Recent content in Portafolios on Alexandra Patiño Gutierrez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-CO</language>
-    <lastBuildDate>Sat, 23 Mar 2019 10:57:38 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2019 20:46:16 -0500</lastBuildDate>
     
 	<atom:link href="https://alexapgutierrez.github.io/portafolio/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Disete</title>
+      <link>https://alexapgutierrez.github.io/portafolio/disete/</link>
+      <pubDate>Thu, 08 Aug 2019 20:46:16 -0500</pubDate>
+      
+      <guid>https://alexapgutierrez.github.io/portafolio/disete/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Paute Aqui Colombia</title>
